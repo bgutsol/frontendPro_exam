@@ -1,0 +1,27 @@
+.breadcrumbs{
+  background-color: $grey-blue;
+
+  &__content{
+    font-size: 16px;
+    color: #fff;
+    padding: 15px 0;
+  }
+
+  &__link{
+    margin-right: 30px;
+    position: relative;
+    color: #fff;
+
+    &:hover{
+      text-decoration: underline;
+    }
+
+    &::after{
+      content: '>';
+      color: #acb3c0;
+      position: absolute;
+      right: -19px;
+    }
+  }
+
+}

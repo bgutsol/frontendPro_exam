@@ -3,16 +3,36 @@
 
   &__heading{
     margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   &__title{
+    flex-grow: 1;
     color: $text-color;
     text-align: center;
     font-weight: bold;
     font-size: 34px;
+    line-height: 1;
+    padding: 0 15px;
   }
 
-  &__content{
+  &__btn-back,
+  &__steps{
+    flex-basis: 150px;
+    flex-shrink: 0;
+  }
 
+  &__steps{
+    font-size: 24px;
+    font-weight: normal;
+    color: $grey-blue;
+
+    strong{
+      font-weight: bold;
+      font-size: 28px;
+      color: $text-color;
+    }
   }
 }

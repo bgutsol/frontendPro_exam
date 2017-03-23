@@ -1,0 +1,7 @@
+mixin breadcrumbs(classes, currPage, links)
+    +b.breadcrumbs(class=classes)
+        .row
+            +e.content
+                each link in links
+                    +e('a').link(href=link.href)= link.title
+                +e('span').current= currPage

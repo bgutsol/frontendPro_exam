@@ -1,0 +1,25 @@
+.services{
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item{
+    display: flex;
+    margin: 1px;
+    min-height: 105px;
+    flex-basis: 500px;
+    flex-grow: 1;
+    align-items: center;
+    cursor: pointer;
+
+    padding: 10px 40px 10px 50px;
+    background-color: #fff;
+  }
+
+  &__text{
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.4;
+    color: $text-color;
+  }
+
+}

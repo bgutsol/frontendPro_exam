@@ -1,7 +1,7 @@
 mixin categories(classes, items)
     +b.categories(class=classes)
         each item in items
-            +e.item
+            +e('a').item(href=item.href)
                 +e.img
                     img(src=item.imgSrc)
                 +e.content

@@ -1,0 +1,5 @@
+mixin services(classes, items)
+    +b.services(class=classes)
+        each item in items
+            +e('a').item(href=item.href)
+                +e('p').text= item.text
