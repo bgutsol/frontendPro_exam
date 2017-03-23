@@ -1,12 +1,6 @@
-# AIST Front #
+# FrontendPro Exam #
 
-### Не забудь поставити в .gitignore папки: ###
-
-* build/
-* node_modules/
-
-### Як запустити? ###
+### How to start? ###
 
 $ npm i
-
 $ gulp
