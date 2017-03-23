@@ -1,0 +1,35 @@
+.btn{
+
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 14px 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1.4;
+  border-radius: 13px;
+  letter-spacing: .05em;
+  font-family: 'GothamPro-Medium', sans-serif;
+
+  -webkit-transition: all ease-in-out .15s;
+  -o-transition: all ease-in-out .15s;
+  transition: all ease-in-out .15s;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+
+  &:active {
+    outline: 0;
+    background-image: none;
+  }
+
+}

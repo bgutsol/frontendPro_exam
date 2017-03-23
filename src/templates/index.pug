@@ -1,0 +1,47 @@
+extends layouts/_layout_main
+
+block content
+    +b('section').section
+        .row
+            +e.heading
+                +e('h2').title Виберіть категорію
+            +e.content
+                +categories('',
+                [
+                    {
+                        imgSrc: 'img/categories/ico1.png',
+                        text: 'Автотранспорт'
+                    },
+                    {
+                        imgSrc: 'img/categories/ico2.png',
+                        text: 'Будівництво, архітектура, землекористування'
+                    },
+                    {
+                        imgSrc: 'img/categories/ico3.png',
+                        text: 'Громадянство'
+                    },
+                    {
+                        imgSrc: 'img/categories/ico4.png',
+                        text: 'Захист прав дитини'
+                    },
+                    {
+                        imgSrc: 'img/categories/ico5.png',
+                        text: 'Реєстрація місця проживання/перебування'
+                    },
+                    {
+                        imgSrc: 'img/categories/ico6.png',
+                        text: 'Підприємницька діяльність'
+                    },
+                    {
+                        imgSrc: 'img/categories/ico7.png',
+                        text: 'Санітарне та епідемічне благополуччя, ветеринарна медицина'
+                    },
+                    {
+                        imgSrc: 'img/categories/ico8.png',
+                        text: 'Комунальне господарство'
+                    }
+
+                ])
+
+
+

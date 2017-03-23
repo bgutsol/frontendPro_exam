@@ -1,0 +1,46 @@
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font: {
+    size: 16px;
+    family: $primary-font;
+  }
+  background-color: $bck-color;
+  @include font-smoothing;
+}
+
+a:active,a:hover {
+  outline: 0;
+}
+
+p,h1,h2,h3,h4,ul{
+  margin: 0;
+}
+
+ul{
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+.row {
+  margin: auto;
+  max-width: 1240px;
+  padding: 0 20px;
+  position: relative;
+}

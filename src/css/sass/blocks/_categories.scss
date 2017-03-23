@@ -1,0 +1,44 @@
+.categories{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+
+  margin: 0 -15px;
+
+
+  &__item{
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: 277px;
+    margin: 0 15px 30px;
+    position: relative;
+
+    padding: 50px 20px 20px;
+    background-color: #fff;
+  }
+
+  &__img{
+    width: 120px;
+    height: 106px;
+    margin: 0 auto 40px;
+    display: flex;
+
+    img{
+      margin: auto;
+      vertical-align: middle;
+    }
+  }
+
+  &__content{
+    text-align: center;
+  }
+
+  &__text{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.4;
+    color: $text-color;
+  }
+
+}

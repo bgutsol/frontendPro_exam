@@ -1,0 +1,27 @@
+.main-header{
+  background-color: $dark-blue;
+  padding: 20px 0;
+  text-align: center;
+
+  &__text{
+    font-weight: bold;
+    font-size: 34px;
+    color: #fff;
+
+    .svg{
+      display: inline-block;
+      position: relative;
+      margin-right: 20px;
+      top: 6px;
+
+      svg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        fill: #e4b658;
+      }
+    }
+  }
+}

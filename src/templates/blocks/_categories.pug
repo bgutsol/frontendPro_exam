@@ -1,0 +1,8 @@
+mixin categories(classes, items)
+    +b.categories(class=classes)
+        each item in items
+            +e.item
+                +e.img
+                    img(src=item.imgSrc)
+                +e.content
+                    +e('p').text= item.text
